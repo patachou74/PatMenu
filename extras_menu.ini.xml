@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mythmenu name="EXTRAS_MENU">
+
+    <button>
+        <type>IMAGEDEFONT</type>
+        <text>Font decran</text>
+        <text lang="FR">Change images</text>
+        <description>Image_initiale</description>
+        <action>EXEC ~/.mythtv/themes/PatAbstractWide/autochange.sh</action>
+    </button>
+
+    <button>
+        <type>RVB</type>
+        <text>Refresh Video Browser</text>
+        <text lang="FR">Mise à jour spéciale des vidéos</text>
+        <description>RVB</description>
+        <action>EXEC ~/.mythtv/themes/PatAbstractWide/rvb.sh</action>
+    </button>
+    
+    <button>
+        <type>TV_STATUS</type>
+        <text>System Status</text>
+        <description>See what your system is doing</description>
+        <action>TV_STATUS</action>
+    </button>
+  
+    <button>
+        <type>MUSIC_SCAN</type>
+        <text>Scan for New Music</text>
+        <text lang="FR">Scan musique</text>
+        <text lang="DE">Suche neue Musik</text>
+        <description>Update your collection by looking for new music</description>
+        <description lang="FR">Mise à jour de la musique</description>
+        <description lang="DE">Aktualisiere Deine Musiksammlung</description>
+        <action>JUMP Scan music</action>
+        <depends>mythmusic</depends>
+    </button>
+
+    <button>
+        <type>MENU_UTILITIES_SETUP</type>
+        <text>Setup</text>
+        <description>Configure MythTV and plugins</description>
+        <action>MENU main_settings.xml</action>
+        <password>SetupPinCode</password>
+    </button>
+    
+    <button>
+        <type>MENU_MAIN</type>
+        <text>main menu initial</text>
+        <description>main menu initial</description>
+        <action>MENU mainmenu.ini.xml</action>
+    </button>
+    
+    
+
+</mythmenu>
+

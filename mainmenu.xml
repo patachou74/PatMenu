@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mythmenu name="MAIN">
+
+    <button>
+        <type>VIDEO_BROWSER</type>
+        <text>Videos</text>
+        <description>Browse your video library</description>
+        <action>JUMP Video Default</action>
+    </button>
+    
+    <button>
+        <type>IMAGES</type>
+        <text>Images</text>
+        <description>Look at pictures</description>
+        <action>JUMP Gallery Default</action>
+    </button>
+
+    <button>
+        <type>NEWS</type>
+        <text>News Feeds</text>
+        <text lang="FR">Nouvelles</text>
+        <text lang="DE">Nachrichten</text>
+        <description>Keep up with the news</description>
+        <description lang="FR">Actualités</description>
+        <description lang="DE">Aktuelles aus aller Welt</description>
+        <action>PLUGIN mythnews</action>
+        <depends>mythnews</depends>
+    </button>
+
+    <button>
+       <type>WEATHER</type>
+        <text>Weather Station</text>
+        <action>PLUGIN mythwstation</action>
+        <depends>mythwstation</depends>
+    </button>
+
+    <button>
+        <type>WEBPAGE</type>
+        <text>Web</text>
+        <description>Browse the web</description>
+        <action>PLUGIN mythbrowser</action>
+        <depends>mythbrowser</depends>
+    </button>
+
+    <button>
+        <type>NET_VIDEO_SEARCH</type>
+        <text>Search Internet Video</text>
+        <description>Search popular video sites</description>
+        <action>JUMP MythNetSearch</action>
+        <depends>mythnetvision</depends>
+    </button>
+
+    <button>
+        <type>NET_VIDEO_TREE</type>
+        <text>Browse Internet Video</text>
+        <description>Browse highlights and entire sites</description>
+        <action>JUMP MythNetTree</action>
+        <depends>mythnetvision</depends>
+    </button>
+    
+    <button>
+        <type>MENU_EXTRAS</type>
+        <text>Extras</text>
+        <description>Setup, status information and import</description>
+        <action>MENU extras_menu.xml</action>
+    </button>
+ <!--     
+    <button>
+        <type>TV_WATCH_TV</type>
+        <text>Watch TV</text>
+        <description>Watch live television</description>
+        <action>TV_WATCH_LIVE</action>
+    </button>
+
+    <button>
+        <type>MENU_MEDIA_LIBRARY</type>
+        <text>Media Library</text>
+        <action>MENU library.xml</action>
+        <description>Play any of your media</description>
+    </button>
+
+    <button>
+        <type>MENU_MANAGE_RECORDINGS</type>
+        <text>Manage Recordings</text>
+        <description>Pick and prioritize recordings</description>
+        <action>MENU manage_recordings.xml</action>
+    </button>
+
+    <button>
+        <type>MENU_INFO_CENTER</type>
+        <text>Information Center</text>
+        <description>Information and Communications</description>
+        <action>MENU info_menu.xml</action>
+    </button>
+
+    <button>
+        <type>MENU_OPTICAL_DISKS</type>
+        <text>Optical Disks</text>
+        <description>Play or import Blu-ray, DVD, and CDs</description>
+        <action>MENU optical_menu.xml</action>
+    </button>
+
+    <button>
+        <type>TV_WATCH_TV</type>
+        <text>Watch TV</text>
+        <description>Watch live television</description>
+        <action>TV_WATCH_LIVE</action>
+    </button>
+
+    <button>
+        <type>TV_PROGRAM_GUIDE</type>
+        <text>Program Guide</text>
+        <description>Choose programs from a grid-style list</description>
+        <action>TV_SCHEDULE</action>
+    </button>
+
+    <button>
+        <type>MENU_UTILITIES_SETUP</type>
+        <text>Setup</text>
+        <description>Configure MythTV and plugins</description>
+        <action>MENU main_settings.xml</action>
+        <password>SetupPinCode</password>
+    </button>
+ -->
+ 
+</mythmenu>
